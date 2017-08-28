@@ -2,6 +2,7 @@ var bandera = false;
 var status = 1;
 $(".fa-bell").click(function(e){
     console.log("bell");
+    console.log("cambios por verse en ubuntu");
 });
 
 $(function() {
