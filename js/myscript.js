@@ -1,10 +1,11 @@
 var bandera = false;
 var status = 1;
 
-$(".fa-bell").click(function(e){
+$("#btn-bell").click(function(e){
     console.log("bell");
     $('#modal-notification').modal('show')
 });
+
 
 $(function() {
   $('.fa').click(function() {

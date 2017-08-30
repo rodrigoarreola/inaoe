@@ -62,7 +62,7 @@
           </div>
 
             <!-- Modal Notifications-->
-            <div class="modal fade" id="modal-notifications" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -72,13 +72,42 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    ...
-                    Contenido de las notificaciones
-                    ...
+                    <div class="card">
+                      <div class="card-block">
+                        <h4 class="card-title">Conflicto #1</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Tipo de conflicto: No coincide el nombre del alojamiento</h6>
+                        <p>Best Day: Hotel Mariquita Mia</p>
+                        <select>
+                          <option selected>Escoger</option>
+                          <option value="->">-></option>
+                          <option value="<-"><-</option>
+                        </select>
+                        <p>Best Day: Hotel Mia Mariquita</p>
+                        <button type="button" id="btn-resolver" class="btn btn-success">
+                          Resolver
+                        </button>
+                      </div>
+                      <br>
+                      <div class="card">
+                        <div class="card-block">
+                          <h4 class="card-title">Conflicto #1</h4>
+                          <h6 class="card-subtitle mb-2 text-muted">Tipo de conflicto: No coincide el nombre del alojamiento</h6>
+                          <p>Best Day: Hotel Mariquita Mia</p>
+                          <select>
+                            <option selected>Escoger</option>
+                            <option value="->">-></option>
+                            <option value="<-"><-</option>
+                          </select>
+                          <p>Best Day: Hotel Mia Mariquita</p>
+                          <button type="button" id="btn-resolver" class="btn btn-success">
+                            Resolver
+                          </button>
+                        </div>
+                    </div>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Aceptar</button>
+                    <button type="button" class="btn btn-primary"  data-dismiss="modal">Aceptar</button>
                   </div>
                 </div>
               </div>
