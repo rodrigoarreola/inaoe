@@ -3,7 +3,7 @@ var status = 1;
 
 $(".fa-bell").click(function(e){
     console.log("bell");
-    $('#modal-f}notification').modal('show')
+    $('#modal-notification').modal('show')
 });
 
 $(function() {
