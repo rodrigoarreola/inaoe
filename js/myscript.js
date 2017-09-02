@@ -6,6 +6,11 @@ $("#btn-bell").click(function(e){
     $('#modal-notification').modal('show')
 });
 
+$("#btn-ht").click(function(e){
+    console.log("alert modal");
+    $('#alertModal').modal('show')
+});
+
 
 $(function() {
   $('.fa').click(function() {
