@@ -1,3 +1,12 @@
+<?php
+
+  session_start();
+  if (@!$_SESSION['user']){
+      header("Location: login.php");
+  }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,13 +14,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/8127f74334.js"></script>
 
-
-    </script>
+    <script type="text/javascript" src="js/sockets.js"></script>
   </head>
   <body>
 
@@ -20,7 +28,7 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">My data extractor</a>
+      <a class="navbar-brand" href="#">My extractor</a>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
@@ -32,10 +40,14 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Ayuda</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="logout.php">Cerrar Sesión</a>
+          </li>
         </ul>
       </div>
     </nav>
     <br>
+
     <!-- Card Extraccion --> <!--  -->
     <div class="jumbotron">
       <div class="card">
@@ -43,75 +55,53 @@
           Creación del directorio hotelero
         </div>
         <div class="card-block" id="card-ht">
+
+          <div class="container">
+            <div class="row" align="center">
+              <div class="col">
+                <span id="span-etapa" class="col-12 center"></span>
+              </div>
+            </div>
+            <div class="row" align="center">
+              <div class="col">
+                <span id="span-destino"></span><br>
+              </div>
+            </div>
+          </div>
+
+          <br>
           <div class="row">
             <div class="col-2">
               <button type="button" id="btn-ht" class="btn btn-success" data-toggle="modal" data-target="#alertModal">
-                <i class="fa fa-play" aria-hidden="true"></i>
+                <i id="btn-icon" class="fa fa-play" aria-hidden="true"></i>
               </button>
             </div>
             <div class="col-8">
               <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"  style="width: 100%; height: 40px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="col-2">
-              <button type="button" id="btn-bell" class="btn btn-warning" data-toggle="modal" data-target="#modal-notification">
-                <i class="fa fa-bell" aria-hidden="true"></i>
-              </button>
-            </div>
-          </div>
-
-            <!-- Modal Notifications-->
-            <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Log</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="card">
-                      <div class="card-block">
-                        <h4 class="card-title">Conflicto #1</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Tipo de conflicto: No coincide el nombre del alojamiento</h6>
-                        <p>Best Day: Hotel Mariquita Mia</p>
-                        <select>
-                          <option selected>Escoger</option>
-                          <option value="->">-></option>
-                          <option value="<-"><-</option>
-                        </select>
-                        <p>Best Day: Hotel Mia Mariquita</p>
-                        <button type="button" id="btn-resolver" class="btn btn-success">
-                          Resolver
-                        </button>
-                      </div>
-                      <br>
-                      <div class="card">
-                        <div class="card-block">
-                          <h4 class="card-title">Conflicto #1</h4>
-                          <h6 class="card-subtitle mb-2 text-muted">Tipo de conflicto: No coincide el nombre del alojamiento</h6>
-                          <p>Best Day: Hotel Mariquita Mia</p>
-                          <select>
-                            <option selected>Escoger</option>
-                            <option value="->">-></option>
-                            <option value="<-"><-</option>
-                          </select>
-                          <p>Best Day: Hotel Mia Mariquita</p>
-                          <button type="button" id="btn-resolver" class="btn btn-success">
-                            Resolver
-                          </button>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary"  data-dismiss="modal">Aceptar</button>
-                  </div>
+                <div id="pb" class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"  style="width: 0%; height: 40px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                  <h5 id="pbNumber"></h5>
                 </div>
               </div>
             </div>
+            <div class="col-2">
+              <button type="button" id="btn-bell" class="btn btn-warning" data-toggle="collapse" data-target="#collapse-notifications">
+                <i id="icon-bell" class="fa fa-bell" aria-hidden="true"></i>
+                <span id="notification-counter" class="notification-counter">0</span>
+              </button>
+            </div>
+          </div>
+          <br>
+
+
+
+          <div class="collapse" id="collapse-notifications">
+            <div class="container wrapp" id="wrapp">
+              <div id="accordion" role="tablist">
+
+              </div>
+            </div>
+          </div>
+
 
 
 
@@ -120,17 +110,19 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">¡Alerta!</h5>
+                    <h5 class="modal-title" id="modalAlertTitle">¡Alerta!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body" id="modalBody">
                     Al detener el proceso se perderá toda la información extraída
                   </div>
                   <div class="modal-footer">
+                      <!--
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
                     <button type="button" id="btn-danger-aceptar" data-dismiss="modal" class="btn btn-danger">Aceptar</button>
+                      -->
                   </div>
                 </div>
               </div>
@@ -149,12 +141,12 @@
           <div class="row">
             <div class="col-2">
               <button type="button" id="btn-ht" class="btn btn-success" data-toggle="modal" data-target="#alertModal">
-                <i class="fa fa-play" aria-hidden="true"></i>
+                <i id="btn-icon" class="fa fa-play" aria-hidden="true"></i>
               </button>
             </div>
             <div class="col-8">
               <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"  style="width: 50%; height: 40px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <div id="pb2"class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"  style="width: 100%; height: 40px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <div class="col-2">
@@ -167,9 +159,12 @@
       </div>
     </div>
 
+
+
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/myscript.js"></script>
+    <script type="text/javascript" src="js/sockets.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>

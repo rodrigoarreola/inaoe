@@ -1,0 +1,904 @@
+{
+  "type": "notification",
+  "data": [{
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "0",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Booking",
+      "destino": "Acapulco",
+      "parametro": "El Sol",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Price Travel",
+      "destino": "Cancún",
+      "parametro": "Xenxes",
+      "tipo": "2",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Expidia",
+      "destino": "Huatulco",
+      "parametro": "Dreams",
+      "tipo": "3",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Hoteles",
+      "destino": "Huatulco",
+      "parametro": "Barcelo",
+      "tipo": "4",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "5",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "6",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Booking",
+      "destino": "Acapulco",
+      "parametro": "El Sol",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Price Travel",
+      "destino": "Cancún",
+      "parametro": "Xenxes",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Expidia",
+      "destino": "Huatulco",
+      "parametro": "Dreams",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Hoteles",
+      "destino": "Huatulco",
+      "parametro": "Barcelo",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Booking",
+      "destino": "Acapulco",
+      "parametro": "El Sol",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Price Travel",
+      "destino": "Cancún",
+      "parametro": "Xenxes",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Expidia",
+      "destino": "Huatulco",
+      "parametro": "Dreams",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Hoteles",
+      "destino": "Huatulco",
+      "parametro": "Barcelo",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Booking",
+      "destino": "Acapulco",
+      "parametro": "El Sol",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Price Travel",
+      "destino": "Cancún",
+      "parametro": "Xenxes",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Expidia",
+      "destino": "Huatulco",
+      "parametro": "Dreams",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Hoteles",
+      "destino": "Huatulco",
+      "parametro": "Barcelo",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Booking",
+      "destino": "Acapulco",
+      "parametro": "El Sol",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Price Travel",
+      "destino": "Cancún",
+      "parametro": "Xenxes",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Expidia",
+      "destino": "Huatulco",
+      "parametro": "Dreams",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Hoteles",
+      "destino": "Huatulco",
+      "parametro": "Barcelo",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Booking",
+      "destino": "Acapulco",
+      "parametro": "El Sol",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Price Travel",
+      "destino": "Cancún",
+      "parametro": "Xenxes",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Expidia",
+      "destino": "Huatulco",
+      "parametro": "Dreams",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Hoteles",
+      "destino": "Huatulco",
+      "parametro": "Barcelo",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Booking",
+      "destino": "Acapulco",
+      "parametro": "El Sol",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Price Travel",
+      "destino": "Cancún",
+      "parametro": "Xenxes",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Expidia",
+      "destino": "Huatulco",
+      "parametro": "Dreams",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Hoteles",
+      "destino": "Huatulco",
+      "parametro": "Barcelo",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Booking",
+      "destino": "Acapulco",
+      "parametro": "El Sol",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Price Travel",
+      "destino": "Cancún",
+      "parametro": "Xenxes",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Expidia",
+      "destino": "Huatulco",
+      "parametro": "Dreams",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Hoteles",
+      "destino": "Huatulco",
+      "parametro": "Barcelo",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Booking",
+      "destino": "Acapulco",
+      "parametro": "El Sol",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Price Travel",
+      "destino": "Cancún",
+      "parametro": "Xenxes",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Expidia",
+      "destino": "Huatulco",
+      "parametro": "Dreams",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Hoteles",
+      "destino": "Huatulco",
+      "parametro": "Barcelo",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Booking",
+      "destino": "Acapulco",
+      "parametro": "El Sol",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Price Travel",
+      "destino": "Cancún",
+      "parametro": "Xenxes",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Expidia",
+      "destino": "Huatulco",
+      "parametro": "Dreams",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "Hoteles",
+      "destino": "Huatulco",
+      "parametro": "Barcelo",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    },
+    {
+      "fecha": "2017-09-16 16:32:01",
+      "fuente": "BestDay",
+      "destino": "Huatulco",
+      "parametro": "Bahía de Huatulco",
+      "tipo": "1",
+      "excepcion": "File /usr/local/lib/python3.4/dist-packages/selenium/webdriver/common/service.py, line 74, in start ",
+      "linea": "74"
+    }
+  ]
+}
