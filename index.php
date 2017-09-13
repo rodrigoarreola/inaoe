@@ -160,6 +160,94 @@
           </div>
         </div>
       </div>
+
+      <br>
+
+      <div class="card">
+        <div class="card-header">
+          Generación de Reportes
+        </div>
+        <div class="card-block">
+          <div class="row">
+            <div class="container">
+
+              <form>
+                <div class="form-group">
+                  <label for="alojamiento">Tipo de Alojamiento</label>
+                  <select class="form-control" id="alojamiento">
+                    <option> </option>
+                    <option>Hotelero</option>
+                    <option>Extra-hotelero</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="destino">Destino</label>
+                  <select class="form-control" id="destino">
+                    <option>Todos</option>
+                    <option>Acapulco</option>
+                    <option>Huatulco</option>
+                    <option>Cancun</option>
+                    <option>Puerto Vallarta</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="destino">Versión</label>
+                  <select class="form-control" id="destino">
+                    <option>11 - Sep - 2017</option>
+                    <option>10 - Sep - 2017</option>
+                    <option>09 - Sep - 2017</option>
+                    <option>08 - Sep - 2017</option>
+                    <option>07 - Sep - 2017</option>
+                  </select>
+                </div>
+                <div class="">
+                  <table class="table table-sm table-hover table-responsive ">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Nombre</th>
+                        <th>Categoría</th>
+                        <th>Habitaciones</th>
+                        <th>Posición Geografíca</th>
+                        <th>Dirección</th>
+                      </tr>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Marriot</td>
+                      <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+                      <td>540</td>
+                      <td>16.7516868,-93.1187223,15</td>
+                      <td>Av. Central Pte. S/N, Centro, Guadalupe, 29000 Tuxtla Gutiérrez, Chis.</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Marriot</td>
+                      <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+                      <td>540</td>
+                      <td>16.7516868,-93.1187223,15</td>
+                      <td>Av. Central Pte. S/N, Centro, Guadalupe, 29000 Tuxtla Gutiérrez, Chis.</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Marriot</td>
+                      <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+                      <td>540</td>
+                      <td>16.7516868,-93.1187223,15</td>
+                      <td>Av. Central Pte. S/N, Centro, Guadalupe, 29000 Tuxtla Gutiérrez, Chis.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <button type="submit" class="btn btn-success">Generar CSV</button>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
 
