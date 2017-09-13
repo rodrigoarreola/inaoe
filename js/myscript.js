@@ -1,5 +1,10 @@
-//Estados de botón
+$(document).ready(function(){
+  $("#tablaH").dataTable();
+  $("#tablaE").dataTable();
+  }
+);
 
+//Estados de botón
 function estadoCero() {
   console.log("Entra estado cero");
   $('alertModal').modal('show'); //trigger the modal
@@ -26,7 +31,6 @@ function estadoDos() {
 
 //sockets
 var connection = new WebSocket('ws://192.168.56.1:1234');
-
 
 
 connection.onmessage = function(evt) {
@@ -176,6 +180,30 @@ var toggle = (function(el) {
 })("div");
 
 document.getElementById("btn-ht").addEventListener("click", toggle);
+
+//Code for Select items aka Generación de Reportes
+function showSelect(){
+  var e = document.getElementById("alojamiento");
+  var text = e.options[e.selectedIndex].text;
+  console.log(text);
+
+  switch (text) {
+    case "Hotelero":
+      $('#wrappTableH').show();
+      $('#wrappTableE').hide();
+      break;
+    case "Extra-hotelero":
+      $('#wrappTableE').show();
+      $('#wrappTableH').hide();
+      break;
+    default:
+      console.log("No valido");
+      alert("Selección no valida");
+      break;
+  }
+}
+
+
 
 
 

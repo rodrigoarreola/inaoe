@@ -6,7 +6,7 @@
 }
 
 .notification-counter {
-  position: fixed;
+  position: absolute;
   float: right;
   background-color: rgba(212, 19, 13, 1);
   color: #fff;
@@ -21,4 +21,8 @@
 
 .divprogress{
   padding-top: 20px;
+}
+
+.hideStar{
+  display: none;
 }

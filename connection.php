@@ -12,7 +12,6 @@
     if($row = pg_fetch_array($result)){
         if($row['pass'] == $pass){
 
-            // $_id=$row['id'];
             if($row['user'] =="admin"){
                 session_start();
               header("Location: indexAdmin.php");
@@ -20,10 +19,10 @@
             else{
             session_start();
             $_SESSION['user'] = $usuario;
-            header("Location: index.php"); //Si hay algun usuario en la DB que coincida con el ingresado entra a main
+            header("Location: index.php");
           }
         }else{
-            header("Location: login.php"); //Si no se queda en index.php
+            header("Location: login.php");
             exit();
         }
     }else{

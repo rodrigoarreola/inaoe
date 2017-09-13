@@ -18,11 +18,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="https://use.fontawesome.com/8127f74334.js"></script>
-    <!--<link rel="stylesheet" href="css/font-awesome.min.css">  -->
+    <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <script type="text/javascript" src="js/sockets.js"></script>
+    <link rel="stylesheet" href="css/dataTables.css">
   </head>
   <body>
 
@@ -171,23 +169,23 @@
           <div class="row">
             <div class="container">
 
-              <form>
+              <form name="formReportes">
                 <div class="form-group">
                   <label for="alojamiento">Tipo de Alojamiento</label>
-                  <select class="form-control" id="alojamiento">
-                    <option> </option>
+                  <select name="selectAlojamiento" class="form-control" id="alojamiento" onchange="showSelect()">
+                    <option>Tipo de alojamiento</option>
                     <option>Hotelero</option>
                     <option>Extra-hotelero</option>
                   </select>
                 </div>
                 <div class="form-group">
                   <label for="destino">Destino</label>
-                  <select class="form-control" id="destino">
+                  <select name="selectDestino" class="form-control" id="destino" onchange="showSelect()">
                     <option>Todos</option>
                     <option>Acapulco</option>
                     <option>Huatulco</option>
                     <option>Cancun</option>
-                    <option>Puerto Vallarta</option>
+                    <option>Puerto Vallarta</option>2
                   </select>
                 </div>
                 <div class="form-group">
@@ -201,23 +199,59 @@
                   </select>
                 </div>
                 <div class="">
-                  <table class="table table-sm table-hover table-responsive ">
+                  <div class="" style="display: none;" id="wrappTableH">
+                    <table id="tablaH" name="tablaH" class="table table-sm table-hover table-responsive">
+                      <thead>
+                        <tr>
+                          <th>#<span style="display:inline-block; width: 7px;"></span></th>
+                          <th>Nombre<span style="display:inline-block; width: 7px;"></span></th>
+                          <th>Categoría<span style="display:inline-block; width: 7px;"></span></th>
+                          <th>Habitaciones<span style="display:inline-block; width: 7px;"></span></th>
+                          <th>Posición Geografíca<span style="display:inline-block; width:7px;"></span></th>
+                          <th>Dirección<span style="display:inline-block; width:7px;"></span></th>
+                        </tr>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Hilton</td>
+                        <td><span  class="hideStar">2</span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+                        <td>5240</td>
+                        <td>16.7516868,-93.1187223,15</td>
+                        <td>Av. Central Pte. S/N, Centro, Guadalupe, 29000 Tuxtla Gutiérrez, Chis.</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Marriot</td>
+                        <td value="2"><span class="hideStar">5</span><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+                        <td>50</td>
+                        <td>16.7516868,-93.1187223,15</td>
+                        <td>Av. Central Pte. S/N, Centro, Guadalupe, 29000 Tuxtla Gutiérrez, Chis.</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Marriot</td>
+                        <td value="3"><span  class="hideStar">3</span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+                        <td>10</td>
+                        <td>16.7516868,-93.1187223,15</td>
+                        <td>Av. Central Pte. S/N, Centro, Guadalupe, 29000 Tuxtla Gutiérrez, Chis.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </div>
+
+                <div class="" style="display: none;" id="wrappTableE">
+                  <table id="tablaE" name="tablaE" class="table table-sm table-hover table-responsive" >
                     <thead>
                       <tr>
-                        <th>#</th>
-                        <th>Nombre</th>
-                        <th>Categoría</th>
-                        <th>Habitaciones</th>
-                        <th>Posición Geografíca</th>
-                        <th>Dirección</th>
-                      </tr>
-
-                    </tr>
+                        <th>/tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>Marriot</td>
+                      <td>La casa de Don Pepe</td>
                       <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
                       <td>540</td>
                       <td>16.7516868,-93.1187223,15</td>
@@ -225,7 +259,7 @@
                     </tr>
                     <tr>
                       <td>2</td>
-                      <td>Marriot</td>
+                      <td>Rocas</td>
                       <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
                       <td>540</td>
                       <td>16.7516868,-93.1187223,15</td>
@@ -233,14 +267,17 @@
                     </tr>
                     <tr>
                       <td>3</td>
-                      <td>Marriot</td>
-                      <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+                      <td>Helecho</td>
+                      <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
                       <td>540</td>
                       <td>16.7516868,-93.1187223,15</td>
                       <td>Av. Central Pte. S/N, Centro, Guadalupe, 29000 Tuxtla Gutiérrez, Chis.</td>
                     </tr>
                   </tbody>
                 </table>
+
+                </div>
+
               </div>
               <button type="submit" class="btn btn-success">Generar CSV</button>
             </form>
@@ -255,9 +292,10 @@
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/myscript.js"></script>
-    <script type="text/javascript" src="js/sockets.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.bootstrap4.min.js"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     -->
   </body>
