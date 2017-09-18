@@ -1,0 +1,40 @@
+{
+"Type" :"Tradicional",
+"request" : "getListDestination"
+}
+
+{
+"Type" :"Tradicional",
+"request" : "getListDirectories"
+}
+
+
+
+
+{
+"type" : "Tradicional",
+"response" : "getListDestination",
+"data" : [{ "id":1,"Name" : "Acapulco"
+},
+{"id":2,"Name":"Akumal"}
+]
+}
+
+{
+"type" : "Tradicional",
+"response" : "getListDirectories",
+"data" : [{ "id":1,"Name" : "11 de Septiembre 2017"
+},
+{"id":2,"Name":"10 de Septiembre 2017"}
+]
+}
+
+{
+"Type" :"Tradicional",
+"request" : "report",
+"Subtype" : "Directory",
+"filters" : {
+"a":2,
+"b":1
+}
+}

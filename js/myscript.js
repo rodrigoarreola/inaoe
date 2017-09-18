@@ -1,3 +1,5 @@
+var aux="";
+
 $(document).ready(function(){
   $("#tablaH").dataTable();
   $("#tablaE").dataTable();
@@ -33,8 +35,9 @@ function estadoDos() {
 var connection = new WebSocket('ws://192.168.56.1:1234');
 
 
+
 connection.onmessage = function(evt) {
-  var aux = evt.data;
+  aux = evt.data;
   //console.log("data recived: " + aux + " is number?: " + !isNaN(aux));
 
   if (aux == "PLAY_BUTTON") {
@@ -66,6 +69,7 @@ connection.onmessage = function(evt) {
     console.log("************************ JSON ************************");
     var obj = JSON.parse(aux);
 
+
     var element = obj['data'];
     console.log("length element: " + element.length);
 
@@ -75,7 +79,11 @@ connection.onmessage = function(evt) {
       var item = element[i];
       var auxtipo = item.tipo;
 
-
+      //Array con Destinos
+      //var arrayDestino = $.map(data.data, function (el) {
+      //  console.log("********Array destino: " + arrayDestino);
+      //  return el.destino;
+      //});
 
 
       //Tintineo de campana
@@ -203,6 +211,13 @@ function showSelect(){
   }
 }
 
+//Code for insert items into the Select aka Insertar opciones Destino
+var duplicates = ["Marriot","Marriot","Nancy","Adam"];
+var unique = duplicates.filter(function(elem, pos) {
+    return duplicates.indexOf(elem) == pos;
+  });
+console.log(unique);
+
 
 
 
@@ -219,3 +234,4 @@ function showSelect(){
 //Modificar el login
 //Tintineo de campana
 //Corregir flujo de los botones de Qt con la web
+//Configurar ip para poder ver la pagina en cel

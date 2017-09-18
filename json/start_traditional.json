@@ -1,0 +1,9 @@
+{
+  "Process": "Directory",
+  "Sector": "Traditional",
+  "TypeMsg": "Request",
+  "MessageID": "SetExecutionState",
+  "Content": {
+    "State": "Start"
+  }
+}

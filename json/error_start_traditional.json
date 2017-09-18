@@ -1,0 +1,10 @@
+{
+  "Process": "Directory",
+  "Sector": "Traditional",
+  "TypeMsg": "Reply",
+  "MessageID": "SetExecutionState",
+  "Content": {
+    "State": "Fail",
+    "Cause": "Sin internet"
+  }
+} 

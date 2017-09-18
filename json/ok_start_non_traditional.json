@@ -1,0 +1,9 @@
+{
+  "Process": "Directory",
+  "Sector": "NotTraditional",
+  "TypeMsg": "Reply",
+  "MessageID": "SetExecutionState",
+  "Content": {
+    "State": "Started"
+  }
+}

@@ -203,12 +203,12 @@
                     <table id="tablaH" name="tablaH" class="table table-sm table-hover table-responsive">
                       <thead>
                         <tr>
-                          <th>#<span style="display:inline-block; width: 7px;"></span></th>
-                          <th>Nombre<span style="display:inline-block; width: 7px;"></span></th>
-                          <th>Categoría<span style="display:inline-block; width: 7px;"></span></th>
-                          <th>Habitaciones<span style="display:inline-block; width: 7px;"></span></th>
-                          <th>Posición Geografíca<span style="display:inline-block; width:7px;"></span></th>
-                          <th>Dirección<span style="display:inline-block; width:7px;"></span></th>
+                          <th>#<span style="display:inline-block; width: 0px;"></span></th>
+                          <th>Nombre<span style="display:inline-block; width: 0px;"></span></th>
+                          <th>Categoría<span style="display:inline-block; width: 0px;"></span></th>
+                          <th>Habitaciones<span style="display:inline-block; width: 0px;"></span></th>
+                          <th>Posición Geografíca<span style="display:inline-block; width:0px;"></span></th>
+                          <th>Dirección<span style="display:inline-block; width:0px;"></span></th>
                         </tr>
 
                       </tr>
@@ -243,33 +243,41 @@
                   </div>
 
                 <div class="" style="display: none;" id="wrappTableE">
-                  <table id="tablaE" name="tablaE" class="table table-sm table-hover table-responsive" >
+                  <table id="tablaE" name="tablaE" class="table table-sm table-hover table-responsive">
                     <thead>
                       <tr>
-                        <th>/tr>
+                        <th>#<span style="display:inline-block; width: 0px;"></span></th>
+                        <th>Nombre<span style="display:inline-block; width: 0px;"></span></th>
+                        <th>Categoría<span style="display:inline-block; width: 0px;"></span></th>
+                        <th>Habitaciones<span style="display:inline-block; width: 0px;"></span></th>
+                        <th>Posición Geografíca<span style="display:inline-block; width:0px;"></span></th>
+                        <th>Dirección<span style="display:inline-block; width:0px;"></span></th>
+                      </tr>
+
+                    </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>La casa de Don Pepe</td>
-                      <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
-                      <td>540</td>
+                      <td>Casa de Don Pepe</td>
+                      <td><span  class="hideStar">2</span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+                      <td>5240</td>
                       <td>16.7516868,-93.1187223,15</td>
                       <td>Av. Central Pte. S/N, Centro, Guadalupe, 29000 Tuxtla Gutiérrez, Chis.</td>
                     </tr>
                     <tr>
                       <td>2</td>
-                      <td>Rocas</td>
-                      <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
-                      <td>540</td>
+                      <td>Bengala</td>
+                      <td value="2"><span class="hideStar">5</span><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+                      <td>50</td>
                       <td>16.7516868,-93.1187223,15</td>
                       <td>Av. Central Pte. S/N, Centro, Guadalupe, 29000 Tuxtla Gutiérrez, Chis.</td>
                     </tr>
                     <tr>
                       <td>3</td>
-                      <td>Helecho</td>
-                      <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
-                      <td>540</td>
+                      <td>Casa Morada</td>
+                      <td value="3"><span  class="hideStar">3</span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+                      <td>10</td>
                       <td>16.7516868,-93.1187223,15</td>
                       <td>Av. Central Pte. S/N, Centro, Guadalupe, 29000 Tuxtla Gutiérrez, Chis.</td>
                     </tr>
